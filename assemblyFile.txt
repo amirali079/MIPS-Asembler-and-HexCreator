@@ -1,0 +1,17 @@
+lw R0 0(zero)
+addi R1 zero 6
+slt R0 R0 R1
+jal 14
+add R0 R0 R1
+beq R0 R1 30
+sw R1 33(zero)
+sne R0 R0 R1
+aad R0 zero zero
+asub R0 zero zero
+aadi R0 zero 0
+asubi R0 zero 0
+j 50
+sub R1 R0 zero
+and R0 R1 R0
+or R0 R0 zero
+jr 0
